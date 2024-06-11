@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Geometry.Model
+﻿namespace Geometry.Model
 {
     /// <summary>
     /// 

@@ -2,15 +2,13 @@
 using Geometry.Model.Shapes;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Geometry.Model;
-using Geometry.Model.Shapes;
 using Geometry.Model.Shapes.Triangles;
 
 namespace Geometry.Controller
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class PrintPolygon
     {
         List<Polygon> Polygons = new List<Polygon>();
@@ -59,7 +57,6 @@ namespace Geometry.Controller
                 }
             }
             Console.ReadKey();
-
         }
     }
 }
